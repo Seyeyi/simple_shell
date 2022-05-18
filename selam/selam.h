@@ -19,7 +19,7 @@ int _launch(char **args);
 void _signal(int sig);
 
 /* Function prototypes for for builtin(4-5) shell commands
-int hsh_exit(char **args, char *input);
+int _exitshell(char **args, char *input);
 int _cd(char **args, __attribute__((unused)) char *input);
 
 #endif
